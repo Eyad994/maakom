@@ -313,7 +313,7 @@ $(document).on("click", "#save_news", function () {
             success: function (data) {
                 if (data == '1')
                 {
-                    window.location = 'https://masarmobile.com/maakom/news';
+                    window.location = 'http://10.0.79.170/maakom-master/news';
                 } else
                 {
                     //window.location = window.location+'/'+data;
@@ -359,7 +359,7 @@ $(document).on("click", "#save_tender", function () {
             success: function (data) {
                 if (data == '1')
                 {
-                    window.location = 'https://masarmobile.com/maakom/tenders';
+                    window.location = 'http://10.0.79.170/maakom-master/tenders';
                 } else
                 {
                     //window.location = window.location+'/'+data;
@@ -426,7 +426,7 @@ $(document).on("click", "#save_user", function () {
                      swal("تم الحفظ!", "تم الحفظ .", "success");
                     setTimeout(function () {
                         
-                                window.location = 'https://masarmobile.com/maakom/users';
+                                window.location = 'http://10.0.79.170/maakom-master/users';
                         
                     }, 2000);
 
@@ -819,7 +819,7 @@ $(document).on("click", "#span_logout,#li_logout", function () {
             .done(function (data) {
                 if (data == '1')
                 {
-                    window.location = 'https://masarmobile.com/maakom';
+                    window.location = 'http://10.0.79.170/maakom-master';
                 }
             });
 
