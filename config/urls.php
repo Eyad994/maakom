@@ -11,8 +11,8 @@ if(!empty($_SERVER['CONTEXT_PREFIX'])) {
 $root_folder = ltrim($root_folder, '/');
 $root_folder .= '/';
 $root_folder = str_replace('/config', '', $root_folder);
-$root_link = "https://$_SERVER[HTTP_HOST]/".$root_folder;
-$access_files = "https://$_SERVER[HTTP_HOST]/"
+$root_link = "http://$_SERVER[HTTP_HOST]/".$root_folder;
+$access_files = "http://$_SERVER[HTTP_HOST]/"
                     .$root_folder.'access_files';
 $dir_cms = $access_files.'/cms/';
 
