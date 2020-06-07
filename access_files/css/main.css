@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'SwissraCondensed';
-    src: url('https://masarmobile.com/maakom/access_files/fonts/SwissraCondensed-Light.woff2') format('woff2'),
-        url('https://masarmobile.com/maakom/access_files/fonts/SwissraCondensed-Light.woff') format('woff');
+    src: url('http://10.0.79.170/maakom-master/access_files/fonts/SwissraCondensed-Light.woff2') format('woff2'),
+        url('http://10.0.79.170/maakom-master/access_files/fonts/SwissraCondensed-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
